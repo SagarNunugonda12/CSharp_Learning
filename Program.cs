@@ -2,14 +2,14 @@
 Console.Write("Product Name:");
 string? Name = Console.ReadLine();
 Console.Write("Quantity:");
-double Quantity = Convert.ToDouble(Console.ReadLine());
+decimal Quantity = Convert.ToDecimal(Console.ReadLine());
 Console.Write("Price per unit: ");
-double PricePerUnit = Convert.ToDouble(Console.ReadLine());
+decimal PricePerUnit = Convert.ToDecimal(Console.ReadLine());
 
-double Total = (Quantity * PricePerUnit);
+decimal Total = (Quantity * PricePerUnit);
 Console.WriteLine("Total:" + Total);
 
-double GST = (Total + (Total*0.18));
+decimal GST = (Total + (Total * 0.18m));
 
-double Final_Amount = Total + GST;
+decimal Final_Amount = Total + GST;
 Console.Write($"Final Amount: Rs.{Final_Amount}");
