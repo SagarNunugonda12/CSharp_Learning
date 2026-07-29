@@ -1,16 +1,15 @@
-﻿Console.WriteLine("===== USER PROFILE =====");
+﻿Console.WriteLine("===== Shopping Bill Generator =====");
+Console.Write("Product Name:");
+string? Name = Console.ReadLine();
+Console.Write("Quantity:");
+double Quantity = Convert.ToDouble(Console.ReadLine());
+Console.Write("Price per unit: ");
+double PricePerUnit = Convert.ToDouble(Console.ReadLine());
 
-Console.Write("Enter your name: ");
-string? name = Console.ReadLine();
+double Total = (Quantity * PricePerUnit);
+Console.WriteLine("Total:" + Total);
 
-Console.Write("Enter your age: ");
-int age = Convert.ToInt32(Console.ReadLine());
-                  
-Console.Write("Enter your favourite programming language: ");
-string? language = Console.ReadLine();
+double GST = (Total + (Total*0.18));
 
-Console.WriteLine();
-Console.WriteLine("===== PROFILE =====");
-Console.WriteLine($"Name     : {name}");
-Console.WriteLine($"Age      : {age}");
-Console.WriteLine($"Language : {language}");
+double Final_Amount = Total + GST;
+Console.Write($"Final Amount: Rs.{Final_Amount}");
