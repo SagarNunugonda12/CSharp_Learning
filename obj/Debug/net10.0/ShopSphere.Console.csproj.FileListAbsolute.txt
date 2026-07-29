@@ -1,0 +1,14 @@
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/bin/Debug/net10.0/ShopSphere.Console
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/bin/Debug/net10.0/ShopSphere.Console.deps.json
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/bin/Debug/net10.0/ShopSphere.Console.runtimeconfig.json
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/bin/Debug/net10.0/ShopSphere.Console.dll
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/bin/Debug/net10.0/ShopSphere.Console.pdb
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/obj/Debug/net10.0/ShopSphere.Console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/obj/Debug/net10.0/ShopSphere.Console.AssemblyInfoInputs.cache
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/obj/Debug/net10.0/ShopSphere.Console.AssemblyInfo.cs
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/obj/Debug/net10.0/ShopSphere.Console.csproj.CoreCompileInputs.cache
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/obj/Debug/net10.0/ShopSphere.Console.dll
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/obj/Debug/net10.0/refint/ShopSphere.Console.dll
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/obj/Debug/net10.0/ShopSphere.Console.pdb
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/obj/Debug/net10.0/ShopSphere.Console.genruntimeconfig.cache
+/Users/wallstreet289/Documents/CSharp_Learning/ShopSphere.Console/obj/Debug/net10.0/ref/ShopSphere.Console.dll
