@@ -1,28 +1,8 @@
-﻿Console.WriteLine("===== Student Grade Calculator =====");
-Console.Write("Student Name:");
-string? Name = Console.ReadLine();
-Console.Write("Marks:");
-double Marks = Convert.ToDouble(Console.ReadLine());
+﻿using System.Globalization;
 
-if(Marks > 90)
+Console.WriteLine("Enter a Number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+for(int i=1; i <= 10; i++)
 {
-    Console.Write("Grade: A");
+    Console.WriteLine($"{num} * {i} = {num * i}");
 }
-else if(Marks >= 75 && Marks < 90)
-{
-    Console.Write("Grade B");
-}
-else if(Marks >= 50 && Marks < 75)
-{
-    Console.Write("Grade C");
-}
-else if(Marks >= 35 && Marks < 50)
-{
-    Console.Write("Grade D");
-}
-else
-{
-    Console.Write("Fail");
-}
-
-
